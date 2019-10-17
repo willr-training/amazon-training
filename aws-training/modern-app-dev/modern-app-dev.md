@@ -1,4 +1,17 @@
-# Modern application design
+# Topics Covered
+
+Modern application design: Building effective services
+Architecture Quick Chat: Keeping tabs on distributed systems
+The art of the state: Fully-managed service orchestration powered by state machines
+Architecture Quick Chat: Controlling the flow with state machines
+Event-driven Microservice architecture with Amazon EventBridge
+
+# Modern application design: Building effective services
+Speaker: Shaun Ray - Senior Manager, Developer Evangelism, AWS
+Duration: 50 mins
+
+In this three part series, we explore the evolution of modern application design; from monoliths to microservices, deployment solutions from bare metal to containers and the approaches to orchestrate, operate and manage these services at scale. We dive deep into event messaging and orchestration, and how to manage state across loosely coupled distributed systems. We also explain the role distributed tracing and workflow orchestration take in these systems and some common pitfalls to avoid when embarking on this journey.
+This session includes Architecture Quick Chat: Keeping tabs on distributed systems, focusing on the architecture concepts in greater detail.
 
 Goals:
 1. Business case
@@ -220,7 +233,14 @@ https://github.com/open-telemetry
 
 ## Aws step functions
 
-# Modern application dev > the art of the state machines
+# The Art of the State: Fully-managed service orchestration powered by state machines
+Speaker: Gabe Hollombe - Senior Technical Evangelist, AWS
+Duration: 45 mins
+
+Microservice architectures give us increased agility and scale, but as they grow they can become complicated to coordinate and debug. In this session, we review the common service coordination patterns, and see how AWS Step Functions helps us to quickly build fully-managed and resilient workflows powered by easy-to-understand state machines.
+This session includes Architecture Quick Chat: Controlling the flow with state machines, featuring whiteboarding discussions on the key concepts.
+
+Modern application dev > the art of the state machines
 40 min
 
 ## Agenda
@@ -403,7 +423,11 @@ Exams and further training
 
 [image]
 
-# Event driven
+# Event-driven Microservice architecture with Amazon EventBridge
+Speaker: Matt Fitzgerald - Principal Technical Evangelist, AWS
+Duration: 25 mins
+
+Event-driven architectures allow us to build large, scalable, loosely coupled, distributed systems without the need to define arbitrarily complex contracts between components. In this session, we take a look at this architectural pattern in more detail. We also look at event emitters, channels and sinks, and how these concepts map to Amazon EventBridge, which enables us to quickly and easily take advantage of event-driven architectures.
 
 ## Event-driven architectures
 
